@@ -26,3 +26,27 @@ let myobj={
 const myfunction= function(){
     console.log("helloworld");
 }
+
+let x="alpha"
+let y=x
+y="gamma"
+
+console.log(x);
+console.log(y);
+
+//stack mai original value ki copy di jati hai no change in org
+
+let userone ={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let usertwo=userone
+
+usertwo.email="abc@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+// heap mai original value ka pura reference hi diya jata hai
+//  agr usme koi change hua to org value mai bhi reflerct hoga
