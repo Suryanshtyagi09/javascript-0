@@ -27,7 +27,7 @@ const obj3={5:"a", 6:"b"}
 const obj4= Object.assign({},obj1,obj2,obj3)  //correct syntax
 
 const obj5={...obj1,...obj2} //mostly used syntax
-console.log(obj4);  
+//console.log(obj4);  
 
 const users=[
     {
@@ -40,7 +40,20 @@ const users=[
 ]
 users[1].email
 
-console.log(Object.keys(tinderuser));
+/*console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
 console.log(Object.entries(tinderuser));
 
+console.log(tinderuser.hasOwnProperty('isLoggedIn'));
+*/
+const course ={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"suryansh"
+}
+//course.courseInstructor
+
+const {courseInstructor: instructor}=course
+
+//console.log(courseInstructor);
+console.log(instructor);
