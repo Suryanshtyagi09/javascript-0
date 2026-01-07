@@ -31,13 +31,16 @@ if(true){
 }
 //console.log(username);
 
+
+// we can declare function by this method
+// use it before initialisation
 function addOne(num) {
     return num+1
-    
 }
-addOne(5)
+console.log(addOne(5));
+
 
 const addTwo= function(num){
     return num+2
 }
-addTwo(5)
+console.log(addTwo(6));
