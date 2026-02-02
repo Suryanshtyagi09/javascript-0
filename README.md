@@ -1,2 +1,3 @@
-# javascript-0
-A code repo for javascript practice 
+# javascript
+A code repo for learning javascript from basics to advance 
+
